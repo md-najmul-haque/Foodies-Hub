@@ -11,21 +11,23 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-dark">
 
     <section>
-        <h1 class="text-center text-success my-3">Foodies Hub</h1>
+        <h1 class="text-center text-white mt-5 mb-4">Foodies Hub</h1>
 
     </section>
 
     <!-- search reasult -->
-    <div class="input-group mb-3 w-25 mx-auto">
+
+    <div class="input-group mb-3 mx-auto" style="width: 350px;">
         <input id="input-field" type="text" class="form-control" placeholder="Search Your Favorite Food"
             aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
-            <button onclick="loadFood()" class="btn btn-outline-secondary" type="button">Search</button>
+            <button onclick="loadFood()" class="btn btn-outline-danger" type="button">Search</button>
         </div>
     </div>
+
 
     <!-- display meal detals  -->
 
